@@ -1,0 +1,157 @@
+/* 
+ * lightIRC Style Sheet
+ * www.lightIRC.com
+ *
+ * Edit the CSS values and link the Style Sheet to the lightIRC application using the parameter "styleURL".
+ * Please contribute new styles back to the lightIRC project!
+ *
+ * Note: Don't use hyphens for CSS attributes. Write fontSize instead of font-size.
+ *
+ */
+
+/* Global settings */
+lightIRC {
+	fontFamily:Verdana;
+}
+
+/* Background gradient settings. Set both items to the same value if you want a solid background color */
+.backgroundGradientTop {
+	color:#3c579d;
+}
+.backgroundGradientBottom {
+	color:#3c579d;
+}
+
+/* Configures buttons */
+Button {
+	cornerRadius:5;
+	color:#ffffff;
+	textRollOverColor:#ffffff;
+	textSelectedColor:#ffffff;
+	chromeColor:#3c579d;
+}
+
+/* Configures various texts */
+Text, Label {
+	color:#ffffff;
+}
+
+/* Configures popup windows */
+Panel, TitleWindow {
+	chromeColor:#3c579d;
+	backgroundColor:#ffffff;
+	backgroundAlpha:0.7;
+	cornerRadius:10;
+}
+
+/* Configures the user list and other list elements */
+List {
+	contentBackgroundColor:#ffffff;
+	rollOverColor:#3c579d;
+	selectionColor:#3c579d;
+}
+
+/* Configures the channel list popup and other DataGrid elements */
+DataGrid {
+	contentBackgroundColor:#ffffff;
+	rollOverColor:#3c579d;
+	selectionColor:#3c579d;
+}
+
+/* Configures the main chat area */
+TextArea {
+	chromeColor:#3c579d;
+	contentBackgroundColor:#ffffff;
+	color:#ffffff;
+	borderColor:#3c579d;
+}
+
+/* Scrollbar color for the TextArea */
+Scroller {
+	chromeColor:#3c579d;
+}
+
+/* Configures the text input boxes and other TextInput elements*/
+TextInput {
+	contentBackgroundColor:#ffffff;
+	color:#000000;
+	contentBackgroundAlpha:0.8;
+}
+
+/* Configures radio buttons */
+RadioButton {
+	color:#ffffff;
+}
+
+/* Configures checkboxes */
+CheckBox {
+	color:#ffffff;
+}
+
+/* Configures the menu */
+.menu {
+	backgroundColor:#3c579d;
+	contentBackgroundAlpha:0.8;
+}
+
+/* Configures the button state for an active window */
+.buttonActiveWindow {
+	chromeColor:#ffffff;
+	color:#3c579d;
+	textRollOverColor:#ffffff;
+	textSelectedColor:#ffffff;
+	contentBackgroundAlpha:0.8;
+}
+
+/* Configures the button state when the assigned window is not active */
+.buttonInactiveWindow {
+	color:#ffffff;
+}
+
+/* Configures the button state when receiving a new information message (join, part, quit, ...) in the assigned window */
+.buttonInactiveWindowInfo {
+	color:#ffffff;
+}
+
+/* Configures the button state when receiving a new message in the assigned window */
+.buttonInactiveWindowMessage {
+	color:#ffffff;
+}
+
+/* Configures the active state of the bold, underline and translation buttons */
+.buttonBoldActive, .buttonUnderlineActive, .buttonTranslationActive {
+	color:#3c579d;
+}
+
+/* Configures links to other channels or to external URLs */
+.channelLink, .addressLink {
+	color:#3c579d;
+	textDecoration:underline;
+}
+
+/* Configures user names in the chat area */
+.userLink {
+	color:#3c579d;
+	textDecoration:none;
+}
+
+/* Configures the user name of the user himself */
+.userSelfLink {
+    color:#3c579d;
+    textDecoration:none;
+}
+
+/* Color of information messages like joins, parts, mode changes, ... */
+.infoLine {
+	color:#666666;
+}
+
+/* Color of channel or query messages */
+.messageLine {
+	color:#3c579d;
+}
+
+/* Color of user number and topic above the channel area*/
+.channelHeader {
+	color:#3c579d;
+}

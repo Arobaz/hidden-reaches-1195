@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<RadioList>
+	<Radio>
+    	<Nom>ZoneStation</Nom>
+		<Logo>http://www.tonchat.fr/fbapp/playerbar/logos/zonestation.png</Logo>
+		<Stream>http://listen.radionomy.com/ZSFR;</Stream> <!-- Flux SHoutcast il faut ajouter un ; à la fin -->
+ 	</Radio>
+
+</RadioList>
+
+
+
+
+
+
+
+
+
+
+
+
+
