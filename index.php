@@ -110,13 +110,13 @@ color:#fff;
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=1401813666699328";
+  js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=270839699688528";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <script src="http://connect.facebook.net/en_US/all.js"></script>
 <script type="text/javascript">
   FB.init({
-    appId  : '1401813666699328',
+    appId  : '270839699688528',
     status : true,
     cookie : true,
     oauth: true
@@ -136,7 +136,7 @@ color:#fff;
 <body>
 	
   <div class="connexionZone">
-	<form action="http://arobaz.eu/chat/fbapp.php" method="POST" align="center">
+	<form action="https://hidden-reaches-1195.herokuapp.com/chat/fbapp.php" method="POST" align="center">
 		<center>
 		<p><input type="text" name="pseudo" placeholder="Entrez un pseudo"></p>	
 		<!--p><input type="password" name="pass" placeholder="Mot de passe*"></p-->
@@ -181,19 +181,19 @@ color:#fff;
     <input type="submit" class="submit" onclick='postToFeed(); return false;' value="Partager" />
     <br><br>
 	<input type="submit" class="submit" onclick="window.open('http://arobaz.eu/faq.php');" value="Lire la FAQ" />
-    <input type="submit" class="submit" onclick="window.open('https://www.facebook.com/dialog/pagetab?app_id=1401813666699328&next=http://apps.facebook.com/arobaznetwork');" value="Installer sur sa page" />
+    <input type="submit" class="submit" onclick="window.open('https://www.facebook.com/dialog/pagetab?app_id=270839699688528&next=http://apps.facebook.com/arobaznetwork');" value="Installer sur sa page" />
     </p>
     <p id='msg'></p>
 
     <script> 
-      FB.init({appId: "1401813666699328", status: true, cookie: true});
+      FB.init({appId: "270839699688528", status: true, cookie: true});
 
       function postToFeed() {
 
         // calling the API ...
         var obj = {
           method: 'feed',
-          link: 'https://www.facebook.com/arobaznetwork/app_1401813666699328',
+          link: 'https://www.facebook.com/arobaznetwork/app_270839699688528',
           picture: 'http://arobaz.eu/application/fbapp/images/arobase.jpg',
           name: 'Application arobaznetwork',
           caption: 'Application de discussions instantannées par webcam',

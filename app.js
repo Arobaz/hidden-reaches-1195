@@ -12,7 +12,8 @@ var params = {};
 /* Change these parameters */
 params.host                         = "irc.arobaz.eu";
 params.accessKey                    = "O6068-7D5EE-Y9B39-J8776-707CC";
-params.port                         = 6667;
+params.port                         = 7500;
+params.password                     = "laissemoimeconnecterstp";
 params.policyPort                   = 843;
 
 /* Language for the user interface. Currently available translations: ar, bd, bg, br, cz, da, de, el, en, es, et, fi, fr, hu, hr, id, it, ja, lv, nl, no, pl, pt, ro, ru, sk, sl, sq, sr_cyr, sr_lat, sv, th, tr, uk */

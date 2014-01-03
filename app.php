@@ -27,7 +27,8 @@
   <script type="text/javascript">
 var params = {};
 params.host                         = "irc.arobaz.eu";
-params.port                         = 6667;
+params.port                         = 7500;
+params.password                     = "laissemoimeconnecterstp";
 params.accessKey                    = "O6068-7D5EE-Y9B39-J8776-707CC";
 params.policyPort                   = 843;
 params.language                     = "fr";
