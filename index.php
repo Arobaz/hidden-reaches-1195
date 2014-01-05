@@ -136,7 +136,7 @@ color:#fff;
 <body>
 	
   <div class="connexionZone">
-	<form action="http://hidden-reaches-1195.herokuapp.com/chat" method="POST" align="center">
+	<form action="https://hidden-reaches-1195.herokuapp.com/chat" method="POST" align="center">
 		<center>
 		<p><input type="text" name="pseudo" placeholder="Entrez un pseudo"></p>	
 		<!--p><input type="password" name="pass" placeholder="Mot de passe*"></p-->
