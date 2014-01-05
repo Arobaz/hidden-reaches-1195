@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Application Facebook - Arobaz-Network!</title>
+	<title>Application Communication - Arobaz-Network!</title>
 	<!-- Metas -->
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -136,7 +136,7 @@ color:#fff;
 <body>
 	
   <div class="connexionZone">
-	<form action="http://www.arobaz.eu/chat/" method="POST" align="center">
+	<form action="http://hidden-reaches-1195.herokuapp.com/chat" method="POST" align="center">
 		<center>
 		<p><input type="text" name="pseudo" placeholder="Entrez un pseudo"></p>	
 		<!--p><input type="password" name="pass" placeholder="Mot de passe*"></p-->
