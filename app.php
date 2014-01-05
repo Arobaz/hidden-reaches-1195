@@ -3,7 +3,7 @@
 <head>
  <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
  <meta name="language" content="de" />
- <meta name="author" content="YouChat team" />
+ <meta name="author" content="Arobaz team" />
  <title>Arobaz-Network - Réseau de discussions instannées</title>
  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>

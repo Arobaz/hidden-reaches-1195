@@ -136,7 +136,7 @@ color:#fff;
 <body>
 	
   <div class="connexionZone">
-	<form action="https://hidden-reaches-1195.herokuapp.com/chat/" method="POST" align="center">
+	<form action="http://www.arobaz.eu/chat/" method="POST" align="center">
 		<center>
 		<p><input type="text" name="pseudo" placeholder="Entrez un pseudo"></p>	
 		<!--p><input type="password" name="pass" placeholder="Mot de passe*"></p-->
@@ -158,18 +158,18 @@ color:#fff;
 	  </div>
 
 	  <div class="form-group">
-	    <label for="ville" class="label_salon col-lg-2 control-label">[Votre Ville ?!]</label>
+	    <label for="ville" class="label_salon col-lg-2 control-label">Localisation</label>
 		<div style="height:20px;width:1px"></div>
 	    <div class="col-lg-8">
 	      <input type="text" class="form-control" id="ville" name="ville" placeholder="Ville">
 	    </div>
 	  </div>	
 	  <div class="form-group">
-<label for="ville" class="label_salon  col-lg-2 control-label">[Votre #Salon ?!]</label>
+<label for="ville" class="label_salon  col-lg-2 control-label">#Salon</label>
 <div style="height:20px;width:1px"></div>	  
 		<input type="text" name="salon" placeholder="Ton salon" value="#@">
 		</div>	
-		<p><input type="submit" class="submit" name="submit" value="Entrer sur le t'Chat !"></p>
+		<p><input type="submit" class="submit" name="submit" value="Connexion!"></p>
   </center>
 	</form>
 <div class="fb-like" style="text-align:center;color: #222;" data-href="https://www.facebook.com/ArobazNetwork?fref=ts" data-send="false" data-width="450" data-show-faces="true" data-colorscheme="dark"></div>
