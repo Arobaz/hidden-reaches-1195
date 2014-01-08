@@ -1,4 +1,5 @@
 <?php
+print_r($_POST);
 $age = ''.$_POST['age'].'';
 $err = array();
 
@@ -98,8 +99,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                         radioName = window.location.search.substring(7);
                 }
 
-                params.showNickSelection = true;
-                params.autojoin = "#@,#" + radioName;
+                params.showNickSelection = false;
+                params.autojoin = "#" + radioName;
                 params.nick = radioName + "%25";
                 params.styleCSS = "css/blue.css";
         }
