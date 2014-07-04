@@ -10,7 +10,7 @@
 var params = {};
 
 /* Change these parameters */
-params.host                         = "irc.discut-tchat.fr";
+params.host                         = "irc.arobaz.eu";
 params.accessKey                    = "O6068-7D5EE-Y9B39-J8776-707CC";
 params.port                         = 6667;
 params.password                     = "laissemoimeconnecterstp";
@@ -52,7 +52,7 @@ params.perform                      = "";
 /* Whether the server window (and button) should be shown */
 params.showServerWindow             = true;
 
-/* Show a popup to enter a nickname */
+/* Show a popup to enter a nickname *
 params.showNickSelection            = false;
 /* Adds a password field to the nick selection box */
 params.showIdentifySelection        = false;
