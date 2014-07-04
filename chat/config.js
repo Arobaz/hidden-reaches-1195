@@ -10,7 +10,7 @@
 var params = {};
 
 /* Change these parameters */
-params.host                         = "irc.discut-tchat.fr";
+params.host                         = "irc.arobaz.eu";
 params.port                         = 6667;
 params.password                     = "laissemoimeconnecterstp";
 params.policyPort                   = 843;
