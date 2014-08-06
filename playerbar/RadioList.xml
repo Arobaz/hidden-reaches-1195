@@ -2,8 +2,8 @@
 <RadioList>
 	<Radio>
     	<Nom>ZoneStation</Nom>
-		<Logo>http://www.tonchat.fr/fbapp/playerbar/logos/zonestation.png</Logo>
-		<Stream>http://listen.radionomy.com/ZSFR;</Stream> <!-- Flux SHoutcast il faut ajouter un ; à la fin -->
+		<Logo>https://www.tonchat.fr/fbapp/playerbar/logos/zonestation.png</Logo>
+		<Stream>https://listen.radionomy.com/ZSFR;</Stream> <!-- Flux SHoutcast il faut ajouter un ; à la fin -->
  	</Radio>
 
 </RadioList>

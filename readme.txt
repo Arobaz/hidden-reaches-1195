@@ -96,15 +96,15 @@ This package contains the following files:
 - readme.txt (This file)
 
 Setup:
-- Open config.js with a text editor and change/add parameters if necessary. Read http://redmine.lightirc.com/projects/lightirc/wiki/Customization_parameters for a list of all parameters.
+- Open config.js with a text editor and change/add parameters if necessary. Read https://redmine.lightirc.com/projects/lightirc/wiki/Customization_parameters for a list of all parameters.
 - Upload all files and folders to your webspace
 - Navigate your browser to index.html
 
 Important notice:
-If you should encounter a "security error" when starting lightIRC, please read http://redmine.lightirc.com/projects/lightirc/wiki/Flash_Policy_setup_instructions
+If you should encounter a "security error" when starting lightIRC, please read https://redmine.lightirc.com/projects/lightirc/wiki/Flash_Policy_setup_instructions
 
-More information: http://wiki.lightirc.com or irc.lightirc.com (#lightIRC)
-Please use the bug tracker to submit feature requests or bugs: http://redmine.lightirc.com/projects/lightirc
+More information: https://wiki.lightirc.com or irc.lightirc.com (#lightIRC)
+Please use the bug tracker to submit feature requests or bugs: https://redmine.lightirc.com/projects/lightirc
 
 Best regards,
 Valentin

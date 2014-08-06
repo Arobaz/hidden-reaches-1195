@@ -3,7 +3,7 @@
  * www.lightIRC.com
  *
  * You can add or change these parameters to customize lightIRC.
- * Please see the full parameters list at http://redmine.lightirc.com/projects/lightirc/wiki/Customization_parameters
+ * Please see the full parameters list at https://redmine.lightirc.com/projects/lightirc/wiki/Customization_parameters
  *
  */
 
@@ -43,7 +43,7 @@ params.showJoinPartMessages        = false;
  */
 params.styleURL                     = "css/blue.css";
 
-params.realname                     = "http://www.arobaz.eu";
+params.realname                     = "https://www.arobaz.eu";
 /* Channel to be joined after connecting. Multiple channels can be added like this: #lightIRC,#test,#help */
 params.autojoin                     = "#@";
 /* Commands to be executed after connecting. E.g.: /mode %nick% +x */
@@ -72,7 +72,7 @@ params.showNewQueriesInBackground   = true;
 params.navigationPosition           = "bottom";
 
 
-/* See more parameters at http://redmine.lightirc.com/projects/lightirc/wiki/Customization_parameters */
+/* See more parameters at https://redmine.lightirc.com/projects/lightirc/wiki/Customization_parameters */
 params.useUserListIcons             = true;
 params.webcam                       = true;
 params.webcamPreviewBox             = true;

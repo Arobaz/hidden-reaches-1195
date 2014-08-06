@@ -1,11 +1,11 @@
 /** @license
  * SoundManager 2: JavaScript Sound for the Web
  * ----------------------------------------------
- * http://schillmania.com/projects/soundmanager2/
+ * https://schillmania.com/projects/soundmanager2/
  *
  * Copyright (c) 2007, Scott Schiller. All rights reserved.
  * Code provided under the BSD License:
- * http://schillmania.com/projects/soundmanager2/license.txt
+ * https://schillmania.com/projects/soundmanager2/license.txt
  *
  * V2.97a.20110424
  */
@@ -1550,7 +1550,7 @@ function SoundManager(smURL, smID) {
         _a.autobuffer = false; // early HTML5 implementation (non-standard)
         _a.preload = 'none'; // standard
       }
-      _a.loop = (_iO.loops>1?'loop':''); // boolean instead of "loop", for webkit? - spec says string. http://www.w3.org/TR/html-markup/audio.html#audio.attrs.loop
+      _a.loop = (_iO.loops>1?'loop':''); // boolean instead of "loop", for webkit? - spec says string. https://www.w3.org/TR/html-markup/audio.html#audio.attrs.loop
       return _a;
     };
 
@@ -2001,7 +2001,7 @@ function SoundManager(smURL, smID) {
     swf404: _sm + ': Verify that %s is a valid path.',
     tryDebug: 'Try ' + _sm + '.debugFlash = true for more security details (output goes to SWF.)',
     checkSWF: 'See SWF output for more debug info.',
-    localFail: _sm + ': Non-HTTP page (' + _doc.location.protocol + ' URL?) Review Flash player security settings for this special case:\nhttp://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager04.html\nMay need to add/allow path, eg. c:/sm2/ or /users/me/sm2/',
+    localFail: _sm + ': Non-HTTP page (' + _doc.location.protocol + ' URL?) Review Flash player security settings for this special case:\nhttps://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager04.html\nMay need to add/allow path, eg. c:/sm2/ or /users/me/sm2/',
     waitFocus: _sm + ': Special case: Waiting for focus-related event..',
     waitImpatient: _sm + ': Getting impatient, still waiting for Flash%s...',
     waitForever: _sm + ': Waiting indefinitely for Flash (will recover if unblocked)...',
@@ -2018,7 +2018,7 @@ function SoundManager(smURL, smID) {
     didInit: _smc + 'init(): Already called?',
     flashJS: _sm + ': Attempting to call Flash from JS..',
     noPolling: _sm + ': Polling (whileloading()/whileplaying() support) is disabled.',
-    secNote: 'Flash security note: Network/internet URLs will not load due to security restrictions. Access can be configured via Flash Player Global Security Settings Page: http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager04.html',
+    secNote: 'Flash security note: Network/internet URLs will not load due to security restrictions. Access can be configured via Flash Player Global Security Settings Page: https://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager04.html',
     badRemove: 'Warning: Failed to remove flash movie.',
     noPeak: 'Warning: peakData features unsupported for movieStar formats',
     shutdown: _sm + '.disable(): Shutting down',
@@ -2271,7 +2271,7 @@ function SoundManager(smURL, smID) {
       'pluginspage': _s._http+'//www.macromedia.com/go/getflashplayer',
       'type': 'application/x-shockwave-flash',
       'wmode': _s.wmode,
-      'hasPriority': 'true' // http://help.adobe.com/en_US/as3/mobile/WS4bebcd66a74275c36cfb8137124318eebc6-7ffd.html
+      'hasPriority': 'true' // https://help.adobe.com/en_US/as3/mobile/WS4bebcd66a74275c36cfb8137124318eebc6-7ffd.html
     };
 
     if (_s.debugFlash) {
@@ -2710,7 +2710,7 @@ function SoundManager(smURL, smID) {
 
   _detectFlash = function() {
 
-    // hat tip: Flash Detect library (BSD, (C) 2007) by Carl "DocYes" S. Yestrau - http://featureblend.com/javascript-flash-detection-library.html / http://featureblend.com/license.txt
+    // hat tip: Flash Detect library (BSD, (C) 2007) by Carl "DocYes" S. Yestrau - https://featureblend.com/javascript-flash-detection-library.html / https://featureblend.com/license.txt
 
     if (_hasFlash !== undefined) {
       // this work has already been done.
@@ -3003,7 +3003,7 @@ function SoundManager(smURL, smID) {
 
 } // SoundManager()
 
-// SM2_DEFER details: http://www.schillmania.com/projects/soundmanager2/doc/getstarted/#lazy-loading
+// SM2_DEFER details: https://www.schillmania.com/projects/soundmanager2/doc/getstarted/#lazy-loading
 if (typeof SM2_DEFER === 'undefined' || !SM2_DEFER) {
   soundManager = new SoundManager();
 }
