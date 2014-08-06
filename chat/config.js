@@ -76,7 +76,7 @@ params.navigationPosition           = "bottom";
 params.useUserListIcons             = true;
 params.webcam                       = true;
 params.webcamPreviewBox             = true;
-params.rtmp                         = "5.135.218.220";
+params.rtmp                         = "92.222.172.249";
 params.quitMessage                  = "Bon t'chat sur Arobaz Network!";
 
 /* Use this method to send a command to lightIRC with JavaScript */

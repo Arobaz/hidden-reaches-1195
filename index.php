@@ -113,7 +113,7 @@ color:#fff;
   js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=1401813666699328";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<script src="http://connect.facebook.net/en_US/all.js"></script>
+<script src="https://connect.facebook.net/en_US/all.js"></script>
 <script type="text/javascript">
   FB.init({
     appId  : '1401813666699328
@@ -170,20 +170,20 @@ color:#fff;
 <div style="height:20px;width:1px"></div>	  
 		<input type="text" name="salon" placeholder="Ton salon" value="#@">
 		</div>	
-		<p><input type="submit" class="submit" name="submit" value="Connexion!"></p>
+		<p><input type="submit" class="submit" name="submit" value="Go!"></p>
   </center>
 	</form>
 <div class="fb-like" style="text-align:center;color: #222;" data-href="https://www.facebook.com/ArobazNetwork?fref=ts" data-send="false" data-width="450" data-show-faces="true" data-colorscheme="dark"></div>
 </div>
-<script src='http://connect.facebook.net/fr_FR/all.js'></script>
+<script src='https://connect.facebook.net/fr_FR/all.js'></script>
     <p align="center">
 
     <input type="submit" class="submit" onclick="sendRequestViaMultiFriendSelector(); return false;" value="Invitez vos amis" />
     <input type="submit" class="submit" onclick='postToFeed(); return false;' value="Partager" />
     <br><br>
-	<input type="submit" class="submit" onclick="window.open('http://arobaz.eu/faq.php');" value="Lire la FAQ" />
+	<input type="submit" class="submit" onclick="window.open('https://arobaz.eu/faq.php');" value="Lire la FAQ" />
     <input type="submit" class="submit" onclick="window.open('https://www.facebook.com/dialog/pagetab?app_id=1401813666699328
-&next=http://apps.facebook.com/arobaznetwork');" value="Installer sur sa page" />
+&next=https://apps.facebook.com/arobaznetwork');" value="Installer sur sa page" />
     </p>
     <p id='msg'></p>
 

@@ -3,7 +3,7 @@
  * www.lightIRC.com
  *
  * You can add or change these parameters to customize lightIRC.
- * Please see the full parameters list at http://redmine.lightirc.com/projects/lightirc/wiki/Customization_parameters
+ * Please see the full parameters list at https://redmine.lightirc.com/projects/lightirc/wiki/Customization_parameters
  *
  */
 
@@ -72,11 +72,11 @@ params.showNewQueriesInBackground   = true;
 params.navigationPosition           = "bottom";
 
 
-/* See more parameters at http://redmine.lightirc.com/projects/lightirc/wiki/Customization_parameters */
+/* See more parameters at https://redmine.lightirc.com/projects/lightirc/wiki/Customization_parameters */
 params.useUserListIcons             = true;
 params.webcam                       = true;
 params.webcamPreviewBox             = true;
-params.rtmp                         = "5.135.218.220";
+params.rtmp                         = "92.222.172.249";
 params.quitMessage                  = "Bon t'chat sur Arobaz Network!";
 
 /* Use this method to send a command to lightIRC with JavaScript */

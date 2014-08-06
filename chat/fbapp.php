@@ -59,15 +59,15 @@ if (empty($_POST['channels'])) {
 
 <div id="lightIRC" style="height:100%; text-align:center;">
 	<p>
-		<a href="http://www.adobe.com/go/getflashplayer">
-			<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+		<a href="https://www.adobe.com/go/getflashplayer">
+			<img src="https://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
 		</a>
 	</p>
 </div>
 
 <!-- Scripts -->
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
 <script type="text/javascript" src="../application/app.js"></script>
 <?php
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
