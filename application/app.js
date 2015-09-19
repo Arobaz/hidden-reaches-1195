@@ -12,7 +12,7 @@ var params = {};
 /* Change these parameters */
 params.host                         = "irc.arobaz.eu";
 params.accessKey                    = "O6068-7D5EE-Y9B39-J8776-707CC";
-params.port                         = 6667;
+params.port                         = 6666;
 params.password                     = "laissemoimeconnecterstp";
 params.policyPort                   = 843;
 
@@ -33,7 +33,7 @@ params.performContinousWhoRequests   = true;
 showNickChangeButton = false;
 params.nick          = "Pseudo%";
 params.nickidentifypopup = true;
-params.identifyMessage              = "NickServ:Ce pseudo est enregistré";
+params.identifyMessage              = "NickServ:Ce pseudo est enregistrÃ©";
 params.showJoinPartMessages        = false;
 
 
@@ -56,7 +56,7 @@ params.showServerWindow             = true;
 params.showNickSelection            = false;
 /* Adds a password field to the nick selection box */
 params.showIdentifySelection        = false;
-params.identifyMessage              = "NickServ:Ce pseudo est enregistré";
+params.identifyMessage              = "NickServ:Ce pseudo est enregistrÃ©";
 params.identifyCommand              = "/msg NickServ identify %pass%"
 params.userListCustomFormatting = "realname=(^|\\W)([0-9]+\\s)?[mMHh](\\s|$):userListMan,realname=(^|\\W)([0-9]+\\s)?[fFWw](\\s|$):userListWoman,mode=v:channelListVoice,mode=h:channelListModo,mode=o:channelListOp,mode=a:channelListAdmin,mode=q:channelListOwner";
 
@@ -76,7 +76,7 @@ params.navigationPosition           = "bottom";
 params.useUserListIcons             = true;
 params.webcam                       = true;
 params.webcamPreviewBox             = true;
-params.rtmp                         = "92.222.172.249";
+params.rtmp                         = "62.210.71.91";
 params.quitMessage                  = "Bon t'chat sur Arobaz Network!";
 
 /* Use this method to send a command to lightIRC with JavaScript */
