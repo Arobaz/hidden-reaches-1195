@@ -24,14 +24,14 @@ params.charset                      = "utf-8";
 */
 
 /* Nick to be used. A % character will be replaced by a random number */
-params.nickAlternate                = "Anonymous%"
-params.ident                        = "Applet"
+params.nickAlternate                = "Arobaz%"
+params.ident                        = "fuser"
 params.rememberNickname             = true;
 params.showUserListInformationPopup = true;
 params.userListInformationPopupItems = "realname";
 params.performContinousWhoRequests   = true;
-showNickChangeButton = false;
-params.nick          = "Pseudo%";
+showNickChangeButton = true;
+params.nick          = "Arobaz%";
 params.nickidentifypopup = true;
 params.identifyMessage              = "NickServ:Ce pseudo est enregistré";
 params.showJoinPartMessages        = false;
@@ -76,7 +76,7 @@ params.navigationPosition           = "bottom";
 params.useUserListIcons             = true;
 params.webcam                       = true;
 params.webcamPreviewBox             = true;
-params.rtmp                         = "62.210.71.91";
+params.rtmp                         = "51.254.130.15";
 params.quitMessage                  = "Bon t'chat sur Arobaz Network!";
 
 /* Use this method to send a command to lightIRC with JavaScript */
