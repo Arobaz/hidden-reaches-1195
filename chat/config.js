@@ -31,9 +31,13 @@ params.showUserListInformationPopup = true;
 params.userListInformationPopupItems = "realname";
 params.performContinousWhoRequests   = true;
 showNickChangeButton = true;
+<<<<<<< HEAD
 params.nick          = "Pseudo%";
+=======
+params.nick          = "Arobaz%";
+>>>>>>> 3e0f4208dcac21027def0d639821482cba594ddb
 params.nickidentifypopup = true;
-params.identifyMessage              = "NickServ:Ce pseudo est enregistré";
+params.identifyMessage              = "NickServ:Ce pseudo est enregistrÃ©";
 params.showJoinPartMessages        = false;
 
 
@@ -41,7 +45,11 @@ params.showJoinPartMessages        = false;
  * The use of styles only works when you upload lightIRC to your webspace.
  * Example: css/lightblue.css
  */
+<<<<<<< HEAD
 params.styleURL                     = "../chat/css/styleappfb.css";
+=======
+params.styleURL                     = "css/styleappfb.css";
+>>>>>>> 3e0f4208dcac21027def0d639821482cba594ddb
 
 params.realname                     = "http://www.arobaz.eu";
 /* Channel to be joined after connecting. Multiple channels can be added like this: #lightIRC,#test,#help */
@@ -53,10 +61,10 @@ params.perform                      = "";
 params.showServerWindow             = true;
 
 /* Show a popup to enter a nickname */
-params.showNickSelection            = false;
+params.showNickSelection            = true;
 /* Adds a password field to the nick selection box */
-params.showIdentifySelection        = false;
-params.identifyMessage              = "NickServ:Ce pseudo est enregistré";
+params.showIdentifySelection        = true;
+params.identifyMessage              = "NickServ:Ce pseudo est enregistrÃ©";
 params.identifyCommand              = "/msg NickServ identify %pass%"
 params.userListCustomFormatting = "realname=(^|\\W)([0-9]+\\s)?[mMHh](\\s|$):userListMan,realname=(^|\\W)([0-9]+\\s)?[fFWw](\\s|$):userListWoman,mode=v:channelListVoice,mode=h:channelListModo,mode=o:channelListOp,mode=a:channelListAdmin,mode=q:channelListOwner";
 
@@ -77,7 +85,11 @@ params.useUserListIcons             = true;
 params.webcam                       = true;
 params.webcamPreviewBox             = true;
 params.rtmp                         = "51.254.130.15";
+<<<<<<< HEAD
 params.quitMessage                  = "Bon t'chat sur Arobaz Network! :-) visit http://www.arobaz.eu";
+=======
+params.quitMessage                  = "Bon t'chat sur Arobaz Network!";
+>>>>>>> 3e0f4208dcac21027def0d639821482cba594ddb
 
 /* Use this method to send a command to lightIRC with JavaScript */
 function sendCommand(command) {
