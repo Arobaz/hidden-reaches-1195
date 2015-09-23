@@ -41,7 +41,7 @@ params.showJoinPartMessages        = false;
  * The use of styles only works when you upload lightIRC to your webspace.
  * Example: css/lightblue.css
  */
-params.styleURL                     = "css/blue.css";
+params.styleURL                     = "css/fbapp.css";
 
 params.realname                     = "http://www.arobaz.eu";
 /* Channel to be joined after connecting. Multiple channels can be added like this: #lightIRC,#test,#help */
