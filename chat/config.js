@@ -31,11 +31,7 @@ params.showUserListInformationPopup = true;
 params.userListInformationPopupItems = "realname";
 params.performContinousWhoRequests   = true;
 showNickChangeButton = true;
-
-params.nick          = "Pseudo%";
-
-params.nick          = "Arobaz%";
-
+params.nick = "Arobaz%"
 params.nickidentifypopup = true;
 params.identifyMessage              = "NickServ:Ce pseudo est enregistré";
 params.showJoinPartMessages        = false;
