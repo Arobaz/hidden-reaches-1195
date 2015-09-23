@@ -29,17 +29,13 @@ params.nickAlternate                = "Arobaz%"
 params.ident                        = "Fuser"
 =======
 params.ident                        = "fuser"
->>>>>>> 3e0f4208dcac21027def0d639821482cba594ddb
 params.rememberNickname             = true;
 params.showUserListInformationPopup = true;
 params.userListInformationPopupItems = "realname";
 params.performContinousWhoRequests   = true;
 showNickChangeButton = true;
-<<<<<<< HEAD
 params.nick          = "Pseudo%";
-=======
 params.nick          = "Arobaz%";
->>>>>>> 3e0f4208dcac21027def0d639821482cba594ddb
 params.nickidentifypopup = true;
 params.identifyMessage              = "NickServ:Ce pseudo est enregistré";
 params.showJoinPartMessages        = false;
