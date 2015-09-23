@@ -25,10 +25,7 @@ params.charset                      = "utf-8";
 
 /* Nick to be used. A % character will be replaced by a random number */
 params.nickAlternate                = "Arobaz%"
-<<<<<<< HEAD
 params.ident                        = "Fuser"
-=======
-params.ident                        = "fuser"
 params.rememberNickname             = true;
 params.showUserListInformationPopup = true;
 params.userListInformationPopupItems = "realname";
@@ -56,13 +53,11 @@ params.perform                      = "";
 /* Whether the server window (and button) should be shown */
 params.showServerWindow             = true;
 
-<<<<<<< HEAD
 /* Show a popup to enter a nickname */
 params.showNickSelection            = false;
-=======
-/* Show a popup to enter a nickname *
 
->>>>>>> 3e0f4208dcac21027def0d639821482cba594ddb
+/* Show a popup to enter a nickname */
+
 /* Adds a password field to the nick selection box */
 params.showIdentifySelection        = true;
 params.identifyMessage              = "NickServ:Ce pseudo est enregistré";
@@ -86,11 +81,9 @@ params.useUserListIcons             = true;
 params.webcam                       = true;
 params.webcamPreviewBox             = true;
 params.rtmp                         = "51.254.130.15";
-<<<<<<< HEAD
+
 params.quitMessage                  = "Bon t'chat sur Arobaz Network! :-) visit http://www.arobaz.eu";
-=======
-params.quitMessage                  = "Bon t'chat sur Arobaz Network! :-) [http://www.arobaz.eu]";
->>>>>>> 3e0f4208dcac21027def0d639821482cba594ddb
+
 
 /* Use this method to send a command to lightIRC with JavaScript */
 function sendCommand(command) {

@@ -42,6 +42,7 @@ if (empty($_POST['salon'])) {
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
 <script type="text/javascript" src="config.js"></script>
+<!-- si le fichier index2.php est utiliser app.js n'est pas utiliser -->
 <?php
 echo 'teeeeeeeest2';
 if ($_POST['submit']) {
