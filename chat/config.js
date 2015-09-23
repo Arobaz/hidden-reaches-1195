@@ -55,7 +55,7 @@ params.showServerWindow             = true;
 /* Show a popup to enter a nickname */
 params.showNickSelection            = true;
 /* Adds a password field to the nick selection box */
-params.showIdentifySelection        = true;
+params.showIdentifySelection        = false;
 params.identifyMessage              = "NickServ:Ce pseudo est enregistré";
 params.identifyCommand              = "/msg NickServ identify %pass%"
 params.userListCustomFormatting = "realname=(^|\\W)([0-9]+\\s)?[mMHh](\\s|$):userListMan,realname=(^|\\W)([0-9]+\\s)?[fFWw](\\s|$):userListWoman,mode=v:channelListVoice,mode=h:channelListModo,mode=o:channelListOp,mode=a:channelListAdmin,mode=q:channelListOwner";
