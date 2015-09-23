@@ -24,14 +24,14 @@ params.charset                      = "utf-8";
 */
 
 /* Nick to be used. A % character will be replaced by a random number */
-params.nickAlternate                = "Anonymous%"
-params.ident                        = "Applet"
+params.nickAlternate                = "Arobaz%"
+params.ident                        = "Fuser"
 params.rememberNickname             = true;
 params.showUserListInformationPopup = true;
 params.userListInformationPopupItems = "realname";
 params.performContinousWhoRequests   = true;
-showNickChangeButton = false;
-params.nick          = "Pseudo%";
+showNickChangeButton = true;
+params.nick          = "Arobaz%";
 params.nickidentifypopup = true;
 params.identifyMessage              = "NickServ:Ce pseudo est enregistré";
 params.showJoinPartMessages        = false;
@@ -41,7 +41,7 @@ params.showJoinPartMessages        = false;
  * The use of styles only works when you upload lightIRC to your webspace.
  * Example: css/lightblue.css
  */
-params.styleURL                     = "css/fbapp.css";
+params.styleURL                     = "css/styleappfb.css";
 
 params.realname                     = "http://www.arobaz.eu";
 /* Channel to be joined after connecting. Multiple channels can be added like this: #lightIRC,#test,#help */
@@ -76,7 +76,7 @@ params.navigationPosition           = "bottom";
 params.useUserListIcons             = true;
 params.webcam                       = true;
 params.webcamPreviewBox             = true;
-params.rtmp                         = "92.222.172.249";
+params.rtmp                         = "51.254.130.15";
 params.quitMessage                  = "Bon t'chat sur Arobaz Network!";
 
 /* Use this method to send a command to lightIRC with JavaScript */
