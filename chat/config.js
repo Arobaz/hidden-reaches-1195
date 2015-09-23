@@ -3,7 +3,7 @@
  * www.lightIRC.com
  *
  * You can add or change these parameters to customize lightIRC.
- * Please see the full parameters list at http://redmine.lightirc.com/projects/lightirc/wiki/Customization_parameters
+ * Please see the full parameters list at https://redmine.lightirc.com/projects/lightirc/wiki/Customization_parameters
  *
  */
 
@@ -11,10 +11,10 @@ var params = {};
 
 /* Change these parameters */
 params.host                         = "irc.arobaz.eu";
+params.accessKey                    = "O6068-7D5EE-Y9B39-J8776-707CC";
 params.port                         = 6667;
 params.password                     = "laissemoimeconnecterstp";
 params.policyPort                   = 843;
-params.accessKey                    = "O6068-7D5EE-Y9B39-J8776-707CC";
 
 /* Language for the user interface. Currently available translations: ar, bd, bg, br, cz, da, de, el, en, es, et, fi, fr, hu, hr, id, it, ja, lv, nl, no, pl, pt, ro, ru, sk, sl, sq, sr_cyr, sr_lat, sv, th, tr, uk */
 params.language                     = "fr";
@@ -24,13 +24,13 @@ params.charset                      = "utf-8";
 */
 
 /* Nick to be used. A % character will be replaced by a random number */
-params.nickAlternate                = "Anonymous%"
-params.ident                        = "Applet"
+params.nickAlternate                = "Arobaz%"
+params.ident                        = "Fuser"
 params.rememberNickname             = true;
 params.showUserListInformationPopup = true;
 params.userListInformationPopupItems = "realname";
 params.performContinousWhoRequests   = true;
-showNickChangeButton = false;
+showNickChangeButton = true;
 params.nick          = "Pseudo%";
 params.nickidentifypopup = true;
 params.identifyMessage              = "NickServ:Ce pseudo est enregistré";
@@ -41,7 +41,7 @@ params.showJoinPartMessages        = false;
  * The use of styles only works when you upload lightIRC to your webspace.
  * Example: css/lightblue.css
  */
-params.styleURL                     = "css/blue.css";
+params.styleURL                     = "../chat/css/styleappfb.css";
 
 params.realname                     = "http://www.arobaz.eu";
 /* Channel to be joined after connecting. Multiple channels can be added like this: #lightIRC,#test,#help */
@@ -72,12 +72,12 @@ params.showNewQueriesInBackground   = true;
 params.navigationPosition           = "bottom";
 
 
-/* See more parameters at http://redmine.lightirc.com/projects/lightirc/wiki/Customization_parameters */
+/* See more parameters at https://redmine.lightirc.com/projects/lightirc/wiki/Customization_parameters */
 params.useUserListIcons             = true;
 params.webcam                       = true;
 params.webcamPreviewBox             = true;
-params.rtmp                         = "92.222.172.249";
-params.quitMessage                  = "Bon t'chat sur Arobaz Network!";
+params.rtmp                         = "51.254.130.15";
+params.quitMessage                  = "Bon t'chat sur Arobaz Network! :-) visit http://www.arobaz.eu";
 
 /* Use this method to send a command to lightIRC with JavaScript */
 function sendCommand(command) {

@@ -24,13 +24,13 @@ params.charset                      = "utf-8";
 */
 
 /* Nick to be used. A % character will be replaced by a random number */
-params.nickAlternate                = "Anonymous%"
-params.ident                        = "Applet"
+params.nickAlternate                = "Arobaz%"
+params.ident                        = "Fuser"
 params.rememberNickname             = true;
 params.showUserListInformationPopup = true;
 params.userListInformationPopupItems = "realname";
 params.performContinousWhoRequests   = true;
-showNickChangeButton = false;
+showNickChangeButton = true;
 params.nick          = "Pseudo%";
 params.nickidentifypopup = true;
 params.identifyMessage              = "NickServ:Ce pseudo est enregistré";
@@ -41,7 +41,7 @@ params.showJoinPartMessages        = false;
  * The use of styles only works when you upload lightIRC to your webspace.
  * Example: css/lightblue.css
  */
-params.styleURL                     = "../chat/css/blue.css";
+params.styleURL                     = "../chat/css/styleappfb.css";
 
 params.realname                     = "http://www.arobaz.eu";
 /* Channel to be joined after connecting. Multiple channels can be added like this: #lightIRC,#test,#help */
@@ -52,7 +52,7 @@ params.perform                      = "";
 /* Whether the server window (and button) should be shown */
 params.showServerWindow             = true;
 
-/* Show a popup to enter a nickname *
+/* Show a popup to enter a nickname */
 params.showNickSelection            = false;
 /* Adds a password field to the nick selection box */
 params.showIdentifySelection        = false;
@@ -76,8 +76,8 @@ params.navigationPosition           = "bottom";
 params.useUserListIcons             = true;
 params.webcam                       = true;
 params.webcamPreviewBox             = true;
-params.rtmp                         = "92.222.172.249";
-params.quitMessage                  = "Bon t'chat sur Arobaz Network!";
+params.rtmp                         = "51.254.130.15";
+params.quitMessage                  = "Bon t'chat sur Arobaz Network! :-) visit http://www.arobaz.eu";
 
 /* Use this method to send a command to lightIRC with JavaScript */
 function sendCommand(command) {
