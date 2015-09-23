@@ -77,7 +77,7 @@ params.useUserListIcons             = true;
 params.webcam                       = true;
 params.webcamPreviewBox             = true;
 params.rtmp                         = "51.254.130.15";
-params.quitMessage                  = "Bon t'chat sur Arobaz Network!";
+params.quitMessage                  = "Bon t'chat sur Arobaz Network! :-) [http://www.arobaz.eu]";
 
 /* Use this method to send a command to lightIRC with JavaScript */
 function sendCommand(command) {
