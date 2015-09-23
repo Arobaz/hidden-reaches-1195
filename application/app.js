@@ -35,13 +35,13 @@ params.nick          = "Pseudo%";
 params.nickidentifypopup = true;
 params.identifyMessage              = "NickServ:Ce pseudo est enregistré";
 params.showJoinPartMessages        = false;
-
+params.showNickSelection            = true;
 
 /* Relative or absolute URL to a lightIRC CSS file.
  * The use of styles only works when you upload lightIRC to your webspace.
  * Example: css/lightblue.css
  */
-params.styleURL                     = "../chat/css/blue.css";
+params.styleURL                     = "../chat/css/styleappfb.css";
 
 params.realname                     = "http://www.arobaz.eu";
 /* Channel to be joined after connecting. Multiple channels can be added like this: #lightIRC,#test,#help */
@@ -53,9 +53,9 @@ params.perform                      = "";
 params.showServerWindow             = true;
 
 /* Show a popup to enter a nickname *
-params.showNickSelection            = false;
+
 /* Adds a password field to the nick selection box */
-params.showIdentifySelection        = false;
+params.showIdentifySelection        = true;
 params.identifyMessage              = "NickServ:Ce pseudo est enregistré";
 params.identifyCommand              = "/msg NickServ identify %pass%"
 params.userListCustomFormatting = "realname=(^|\\W)([0-9]+\\s)?[mMHh](\\s|$):userListMan,realname=(^|\\W)([0-9]+\\s)?[fFWw](\\s|$):userListWoman,mode=v:channelListVoice,mode=h:channelListModo,mode=o:channelListOp,mode=a:channelListAdmin,mode=q:channelListOwner";
