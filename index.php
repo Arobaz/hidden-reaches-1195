@@ -102,8 +102,8 @@ margin-top: 20px;
 color:#fff;
 }
 </style>
-	<!-- Importation des fichiers CSS -->
-	<link rel="stylesheet" type="text/css" href="css/styleappfb.css" media="screen">
+	<!-- Importation des fichiers CSS 
+	<link rel="stylesheet" type="text/css" href="css/styleappfb.css" media="screen">-->
 </head>
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
