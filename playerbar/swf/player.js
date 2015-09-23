@@ -55,7 +55,7 @@ function FadeOutVol()
 		clearInterval(outterfade);
 		var ButPlayStop = document.getElementById("ico_play"); 
     	if (ButPlayStop == typeof('undefined')) return;
-    	ButPlayStop.src = "http://www.hitone.be/v2/player/images/ico_play.png";
+    	ButPlayStop.src = "https://www.hitone.be/v2/player/images/ico_play.png";
 		$("#loaderimg").fadeOut(500);
 		$("#ico_play").fadeIn(500);
 	}
@@ -90,7 +90,7 @@ function PlayStream()
 	$("#ico_play").fadeOut(500, function() { 
 	var ButPlayStop = document.getElementById("ico_play"); 
     if (ButPlayStop == typeof('undefined')) return;
-    ButPlayStop.src = "http://www.hitone.be/v2/player/images/ico_pause.png"; });
+    ButPlayStop.src = "https://www.hitone.be/v2/player/images/ico_pause.png"; });
 	$("#loaderimg").fadeIn(500);
 	IsPlayed = 1;
 	volencin = 0;
@@ -104,7 +104,7 @@ function PlayStreamD()
 	$("#ico_play").fadeOut(500, function() { 
 	var ButPlayStop = document.getElementById("ico_play"); 
     if (ButPlayStop == typeof('undefined')) return;
-    ButPlayStop.src = "http://www.hitone.be/v2/player/images/ico_pause.png"; });
+    ButPlayStop.src = "https://www.hitone.be/v2/player/images/ico_pause.png"; });
 	$("#loaderimg").fadeIn(500);
 	IsPlayed = 1;
 	volencin = 0;
@@ -114,7 +114,7 @@ function PlayStreamD()
 		soundManager.createSound(
 			{
 				id : "HitOneStream",
-				url : "http://178.33.46.186/;stream.nsv", // Attention pas de virgule ici !
+				url : "https://178.33.46.186/;stream.nsv", // Attention pas de virgule ici !
 				stream: true,
 				whileplaying : function() { // Pendant le chargement :
 					//$("#statutconnexion").html('<b>Tu écoutes Zenith Habbo</b>');
@@ -182,7 +182,7 @@ function GetBlocTitre()
 	jQuery(function($){
 		$.ajax({
 			type: "GET",
-			url: "http://www.hitone.be/includes/titre.php",
+			url: "https://www.hitone.be/includes/titre.php",
 			dataType: "xml",
 			success : function(xml) {
 
@@ -211,7 +211,7 @@ function GetBlocTitre()
 						$(".artiste").show("drop", { direction: "right" }, 1000);
 						$.ajax({
 						type: "GET",
-						url: "http://www.hitone.be/v2/hist_music/last_pl.php",
+						url: "https://www.hitone.be/v2/hist_music/last_pl.php",
 						dataType: "html",
 						success : function(datah) { 
 						$(".lastrefresh").fadeOut(1000, function() { $(".lastrefresh").empty().append(datah);$(".lastrefresh").fadeIn(1000);  $(".TooltipCL").tipTip({defaultPosition:"bottom", delay:100});     $(".lastrefresh img").hover(function(){

@@ -96,7 +96,7 @@ $(document).ready(function()
 			
 			if(CurrentLogo == "")
 			{
-				CurrentLogo = "http://www.tonchat.fr/tonchatapp/playerbar/logos/default.png";
+				CurrentLogo = "https://www.tonchat.fr/tonchatapp/playerbar/logos/default.png";
 			}
 		
 			var ButPlayStop = document.getElementById("PB_LogoRadio"); 
@@ -152,7 +152,7 @@ $(document).ready(function()
 					
 					if(CurrentLogo == "")
 					{
-						CurrentLogo = "http://www.tonchat.fr/tonchatapp/playerbar/logos/default.png";
+						CurrentLogo = "https://www.tonchat.fr/tonchatapp/playerbar/logos/default.png";
 					}
 					
 					var ButPlayStop = document.getElementById("PB_LogoRadio"); 

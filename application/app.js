@@ -51,7 +51,7 @@ params.showNickSelection            = true;
  */
 params.styleURL                     = "../chat/css/styleappfb.css";
 
-params.realname                     = "http://www.arobaz.eu";
+params.realname                     = "https://www.arobaz.eu";
 /* Channel to be joined after connecting. Multiple channels can be added like this: #lightIRC,#test,#help */
 params.autojoin                     = "#@";
 /* Commands to be executed after connecting. E.g.: /mode %nick% +x */
