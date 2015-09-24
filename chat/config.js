@@ -24,15 +24,15 @@ params.charset                      = "utf-8";
 */
 
 /* Nick to be used. A % character will be replaced by a random number */
-params.nickAlternate                = "Arobaz_%";// j'enleve le ; ? t'in j'avais pas vu :o
+params.nickAlternate                = "Arobaz_%";
 params.ident                        = "Fuser";
 params.rememberNickname             = true;
 params.showUserListInformationPopup = true;
 params.userListInformationPopupItems = "realname";
 params.performContinousWhoRequests   = true;
 showNickChangeButton = true;
-params.nick = "Arobaz_%"; //touche a rien att un truc va pas avec le % ok et regarde la 
-params.nickidentifypopup = true;
+params.nick = "Arobaz_%"; 
+params.nickidentifypopup = false;
 params.identifyMessage              = "NickServ:Ce pseudo est enregistré";
 params.showJoinPartMessages        = false;
 
