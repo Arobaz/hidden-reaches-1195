@@ -4,8 +4,8 @@ $err = array();
 
 if (empty($_POST['pseudo'])) {
 	$err['pseudo'] = true;
-	$pseudo = 'Anonyme_%';
-} else {
+	$warn = 1;
+} else {//il est pas censer lire le fichier index2.php normalement si ? je me demande si c'est pas une copie de l'index.php
 	$pseudo = htmlspecialchars($_POST['pseudo'], ENT_QUOTES);
 }
 
@@ -51,10 +51,15 @@ echo 'teeeeeeeest1';
 <script language="JavaScript" type="text/javascript">
 	(function () {
 		params.showNickSelection = false;
-		params.nick = <?php echo "\"$pseudo\""; ?>;
+		<?php
+		if (isset($warn)) {
+		echo 'params.nick = "Anonyme_%";';
+		} else {
+		echo 'params.nick = "'.$pseudo.'";';
+		}
 		params.autojoin = <?php echo "\"$channels\""; ?>;
 		params.rememberNickname = false;
-		swfobject.embedSWF("lightIRC.swf", "lightIRC", "100%", "100%", "10.0.0", "expressInstall.swf", params);
+		swfobject.embedSWF("lightIRC.swf", "lightIRC", "100%", "100%", "10.0.0", "expressInstall.swf", params);// "params"?
 	})();
 </script>
 <?php
