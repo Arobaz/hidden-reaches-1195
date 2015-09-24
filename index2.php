@@ -50,7 +50,7 @@ echo 'teeeeeeeest1';
 ?>
 <script language="JavaScript" type="text/javascript">
 	(function () {
-		params.showNickSelection = false;
+		params.showNickSelection = true;
 		<?php
 		if (isset($warn)) {
 		echo 'params.nick = "Anonyme_%";';
@@ -59,7 +59,7 @@ echo 'teeeeeeeest1';
 		}
 		params.autojoin = <?php echo "\"$channels\""; ?>;
 		params.rememberNickname = false;
-		swfobject.embedSWF("lightIRC.swf", "lightIRC", "100%", "100%", "10.0.0", "expressInstall.swf", params);// "params"?
+		swfobject.embedSWF("lightIRC.swf", "lightIRC", "100%", "100%", "10.0.0", "expressInstall.swf", params);
 	})();
 </script>
 <?php
