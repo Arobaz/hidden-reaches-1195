@@ -42,7 +42,6 @@ params.showJoinPartMessages        = false;
  * Example: css/lightblue.css
  */
 params.styleURL                     = "../chat/css/styleappfb.css";
-params.styleURL                     = "css/styleappfb.css";
 params.realname                     = "https://www.arobaz.eu";
 /* Channel to be joined after connecting. Multiple channels can be added like this: #lightIRC,#test,#help */
 params.autojoin                     = "#@";
