@@ -116,7 +116,8 @@ color:#fff;
 <script src="https://connect.facebook.net/en_US/all.js"></script>
 <script type="text/javascript">
   FB.init({
-    appId  : '1401813666699328',
+    appId  : '1401813666699328
+	',
     status : true,
     cookie : true,
     oauth: true
