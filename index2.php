@@ -57,6 +57,7 @@ echo 'teeeeeeeest1';
 		} else {
 		echo 'params.nick = "'.$pseudo.'";';
 		}
+		?>
 		params.autojoin = <?php echo "\"$channels\""; ?>;
 		params.rememberNickname = false;
 		swfobject.embedSWF("lightIRC.swf", "lightIRC", "100%", "100%", "10.0.0", "expressInstall.swf", params);
