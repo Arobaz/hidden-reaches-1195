@@ -30,13 +30,12 @@ params.rememberNickname             = true;
 params.showUserListInformationPopup = true;
 params.userListInformationPopupItems = "realname";
 params.performContinousWhoRequests   = true;
-showNickChangeButton = true;
 params.nick = "Arobaz_%"; 
 //params.nickidentifypopup = false;
 params.identifyMessage              = "NickServ:Ce pseudo est enregistré";
 params.showJoinPartMessages        = false;
 
-
+params.showNickChangeButton = true;
 /* Relative or absolute URL to a lightIRC CSS file.
  * The use of styles only works when you upload lightIRC to your webspace.
  * Example: css/lightblue.css
