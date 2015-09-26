@@ -25,7 +25,7 @@ params.charset                      = "utf-8";
 
 /* Nick to be used. A % character will be replaced by a random number */
 params.nickAlternate                = "Arobaz_%";
-params.ident                        = "Fuser";
+params.ident                        = "Fbuser";
 params.rememberNickname             = true;
 params.showUserListInformationPopup = true;
 params.userListInformationPopupItems = "realname";
