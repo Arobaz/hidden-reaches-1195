@@ -51,7 +51,7 @@ params.perform                      = "";
 params.showServerWindow             = true;
 
 /* Show a popup to enter a nickname */
-params.showNickSelection            = true;
+params.showNickSelection            = false;
 /* Adds a password field to the nick selection box */
 params.showIdentifySelection        = false;
 params.identifyMessage              = "NickServ:Ce pseudo est enregistré";
@@ -71,11 +71,11 @@ params.navigationPosition           = "bottom";
 
 
 /* See more parameters at https://redmine.lightirc.com/projects/lightirc/wiki/Customization_parameters */
-params.useUserListIcons             = true;
+params.useUserListIcons             = false;
 params.webcam                       = true;
 params.webcamPreviewBox             = true;
 params.rtmp                         = "51.254.130.15";
-params.quitMessage                  = "Bon t'chat sur Arobaz Network! :-) visit http://www.arobaz.eu";
+params.quitMessage                  = "Bon t'chat sur Arobaz Network! :-) http://www.arobaz.eu";
 
 /* Use this method to send a command to lightIRC with JavaScript */
 function sendCommand(command) {
