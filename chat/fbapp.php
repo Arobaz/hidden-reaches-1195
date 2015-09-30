@@ -78,7 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 		params.nick = <?php echo "\"$pseudo\""; ?>;
 		params.realname = <?php echo "\"$age $gender $city\""; ?>;
 		params.autojoin = <?php echo "\"$channels\""; ?>;
-		params.styleCSS = "css/blue.css";
+		params.styleCSS = "css/styleappfb.css";
 		params.rememberNickname = false;
 		swfobject.embedSWF("lightIRC.swf", "lightIRC", "100%", "100%", "10.0.0", "expressInstall.swf", params);
 	})();
@@ -102,7 +102,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                 params.showNickSelection = false;
                 params.autojoin = "#" + radioName;
                 params.nick = radioName + "%25";
-                params.styleCSS = "css/blue.css";
+                params.styleCSS = "css/styleappfb.css";
         }
 
         swfobject.embedSWF("lightIRC.swf", "lightIRC", "100%", "100%", "10.0.0", "expressInstall.swf", params);
