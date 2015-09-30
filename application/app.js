@@ -25,24 +25,23 @@ params.charset                      = "utf-8";
 
 /* Nick to be used. A % character will be replaced by a random number */
 params.nickAlternate                = "Arobaz%"
-params.ident                        = "Fuser"
-params.rememberNickname             = true;
+params.ident                        = "Fbuser"
+params.rememberNickname             = false;
 params.showUserListInformationPopup = true;
 params.userListInformationPopupItems = "realname";
 params.performContinousWhoRequests   = true;
 params.showNickChangeButton = true;
-params.nick          = "Pseudo%";
 params.nick          = "Arobaz%";
 params.nickidentifypopup = true;
 params.identifyMessage              = "NickServ:Ce pseudo est enregistré";
 params.showJoinPartMessages        = false;
-params.showNickSelection            = true;
+params.showNickSelection            = false;
 
 /* Relative or absolute URL to a lightIRC CSS file.
  * The use of styles only works when you upload lightIRC to your webspace.
  * Example: css/lightblue.css
  */
-params.styleURL                     = "../chat/css/styleappfb.css";
+params.styleURL                     = "/css/styleappfb.css";
 
 params.realname                     = "https://www.arobaz.eu";
 /* Channel to be joined after connecting. Multiple channels can be added like this: #lightIRC,#test,#help */
