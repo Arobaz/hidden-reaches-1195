@@ -4,7 +4,7 @@ $err = array();
 
 if (empty($_POST['pseudo'])) {
 	$err['pseudo'] = true;
-	$pseudo = 'Anonyme_%';
+	$pseudo = 'Anonyme_%'; 
 } else {
 	$pseudo = htmlspecialchars($_POST['pseudo'], ENT_QUOTES);
 }
@@ -100,7 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                 params.showNickSelection = true;
                 params.autojoin = "#@,#" + radioName;
                 params.nick = radioName + "%25";
-                params.styleCSS = "css/blue.css";
+                params.styleCSS = "css/styleappfb.css";
         }
 
         swfobject.embedSWF("lightIRC.swf", "lightIRC", "100%", "100%", "10.0.0", "expressInstall.swf", params);

@@ -5,7 +5,7 @@ $err = array();
 if (empty($_POST['pseudo'])) {
 	$err['pseudo'] = true;
 	$warn = 1;
-} else {//il est pas censer lire le fichier index2.php normalement si ? je me demande si c'est pas une copie de l'index.php
+} else {
 	$pseudo = htmlspecialchars($_POST['pseudo'], ENT_QUOTES);
 }
 
@@ -82,7 +82,7 @@ echo 'teeeeeeeest1';
                 params.showNickSelection = true;
                 params.autojoin = "#@,#" + radioName;
                 params.nick = radioName + "%25";
-                params.styleCSS = "css/blue.css";
+                params.styleCSS = "css/styleappfb.css";
         }
 
         swfobject.embedSWF("lightIRC.swf", "lightIRC", "100%", "100%", "10.0.0", "expressInstall.swf", params);

@@ -67,7 +67,7 @@ params.showNewQueriesInBackground   = false;
 /* Position of the navigation container (where channel and query buttons appear). Valid values: left, right, top, bottom */
 params.navigationPosition           = "bottom";
 params.webcam			    = true;
-params.rtmp                 = "92.222.172.249";
+params.rtmp                 = "51.254.130.15";
 params.quitMessage                  = "Bon t'chat sur Arobaz Network!";
 /* See more parameters at https://redmine.lightirc.com/projects/lightirc/wiki/Customization_parameters */
 
