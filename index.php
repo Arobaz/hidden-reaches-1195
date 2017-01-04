@@ -168,7 +168,7 @@ color:#fff;
 	  <div class="form-group">
 <label for="ville" class="label_salon  col-lg-2 control-label">#Salon</label>
 <div style="height:20px;width:1px"></div>	  
-		<input type="text" name="salon" placeholder="Ton salon" value="#@">
+		<input type="text" name="channels" placeholder="Ton salon" value="#@">
 		</div>	
 		<p><input type="submit" class="submit" name="submit" value="Go!"></p>
   </center>
