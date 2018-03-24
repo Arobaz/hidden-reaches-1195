@@ -10,7 +10,7 @@
 var params = {};
 
 /* Change these parameters */
-params.host                         = "irc.arobaz.eu";
+params.host                         = "irc.arobaz-network.com";
 params.accessKey                    = "O6068-7D5EE-Y9B39-J8776-707CC";
 params.port                         = 6667;
 params.password                     = "laissemoimeconnecterstp";
