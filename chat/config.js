@@ -11,10 +11,9 @@ var params = {};
 
 /* Change these parameters */
 params.host                         = "irc.arobaz-network.com";
-params.accessKey                    = "O6068-7D5EE-Y9B39-J8776-707CC";
-params.port                         = 6667;
-params.password                     = "laissemoimeconnecterstp";
-params.policyPort                   = 843;
+params.accessKey                    = "B3A50-5472K-CCXEL-Y2301-6EFCC";
+params.port                         = 8001;
+params.policyPort                   = 8002;
 
 /* Language for the user interface. Currently available translations: ar, bd, bg, br, cz, da, de, el, en, es, et, fi, fr, hu, hr, id, it, ja, lv, nl, no, pl, pt, ro, ru, sk, sl, sq, sr_cyr, sr_lat, sv, th, tr, uk */
 params.language                     = "fr";
@@ -74,7 +73,7 @@ params.navigationPosition           = "bottom";
 params.useUserListIcons             = false;
 params.webcam                       = true;
 params.webcamPreviewBox             = true;
-params.rtmp                         = "51.254.130.15";
+params.rtmp                         = "164.132.198.175";
 params.quitMessage                  = "Bon t'chat sur Arobaz Network! :-) http://www.arobaz.eu";
 
 /* Use this method to send a command to lightIRC with JavaScript */
